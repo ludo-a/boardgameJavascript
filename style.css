@@ -1,0 +1,160 @@
+@font-face { /*police ecriture TITRE , MENU et PARAGRAPHE */
+    font-family: 'GetDigital';
+    src: url('fonts/Get Digital.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #808080;
+}
+
+table {
+    border : 5px;
+    border-color: black;
+    border-style:solid; 
+}
+
+h1{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: 'GetDigital';
+    font-size: 2.2em;
+    text-align: center;
+    color: gold;
+    text-shadow: 4px 4px 2px red;
+}
+
+.titrejoueur1,.titrejoueur2 {
+    font-family: 'GetDigital';
+    font-size: 1.4em;
+    color: black;
+    text-shadow: 4px 4px 2px red;
+    text-align: left;
+}
+
+.contenuPage {
+   display: flex;
+   justify-content: center;
+
+}
+
+p {
+    
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+#contenuPersonnage {
+    font-family: 'GetDigital';
+    background-color: #c0c0c0;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    width:330px;
+    height:590px;
+    border: 5px solid black;
+    
+}
+
+#contenuPersonnage img {
+    width : 55px;
+    height: 55px;
+}
+
+#pointattackplayer1 {
+    color: navy;
+}
+
+#pointattackplayer2 {
+    color: navy;   
+}
+
+#pointvieplayer1 {
+    color: green;
+}
+
+#pointvieplayer2 {
+    color: green; 
+}
+
+table#tableau {
+    margin-left: 50px;
+    margin-top: 45px;
+        
+}
+
+table#tableau td {
+    width:70px;
+    height:70px;
+    background-color: #DCDCDC;
+    text-align: center;
+    border : 2px;
+    border-style: outset;
+    border-color: #A9A9A9;
+}
+
+table#tableau td img{
+    width:70px;
+    height:70px;
+    vertical-align: middle;
+}
+
+table#tableau td.jaune {
+    background-color: #F0E68C;
+}
+
+#titrecombat {
+    font-size: 30px;
+    font-style: oblique 30deg;
+    font-weight: bold;
+}
+
+#fightingplayer {
+	color : black;
+	text-shadow: 4px 4px 2px red;
+    font-size: 30px;
+}
+
+
+#boutonCentrer {
+    display:flex;
+    justify-content: space-around;
+
+}
+
+button {
+    width : 100px;
+    height: 40px;
+    font-family: 'GetDigital';
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius : 5px;
+
+}
+button:hover {
+    background-color: yellow;
+}
+
+button:active {
+  background-color: tomato;
+}
+
+#attaque {
+    color: navy;    
+}
+
+#defense {
+    color: green;   
+}
+
+#finish {
+    font-family: 'GetDigital';
+    font-size: 11em;
+    text-shadow: 4px 4px 2px red;
+}
+
+

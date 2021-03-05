@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<html>
+    <head>
+    	<meta charset="UTF-8">
+    	<link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="style.css" />
+        <title>monprojet</title>
+    </head>
+    <body>
+        <audio id="attackSound" src="audio/attack.mp3"></audio>
+        <audio id="shieldSound" src="audio/shield.mp3"></audio>
+        <audio id="fightSound" src="audio/fight.mp3"></audio>
+        <audio id="dieSound" src="audio/die.mp3"></audio>
+        <audio id="blopSound" src="audio/dropWeapon.mp3"></audio>
+
+    	<h1>NinjaWarrior Vs ZombieBoy</h1>
+    	<div class="contenuPage">
+    		<div id="contenuPersonnage">
+            	PLAYER 1: &emsp;<span class="titrejoueur1">NinjaWarrior</span><img src="img/player1.png"/><span id="pictBouclierP1"></span><br>
+                <p>Weapon:<span id="imageweaponplayer1"></span>
+                Attack points:<span id="pointattackplayer1"></span><br>
+                Life points:<span id="pointvieplayer1"></span><br>
+                -----------------------------------------</p>
+                PLAYER 2: &emsp;<span class="titrejoueur2">ZombieBoy</span><img src="img/player2.png"/><span id="pictBouclierP2"></span><br>
+                <p>Weapon:<span id="imageweaponplayer2"></span>
+                Attack points:<span id="pointattackplayer2"></span><br>
+                Life points:<span id="pointvieplayer2"></span><br>
+                -----------------------------------------</p>
+                <p><span id="zonecombat"><span id="titrecombat"> FIGHTING AREA </span><br>
+                <span id="fightingplayer"></span><br>Make a Choice<br>
+                <span id="boutonCentrer">
+                <button id="attaque" type="button">Attack</button> or
+                <button id="defense" type="button">Defend</button>
+                </span>
+                </span>
+            	</p>
+            </div>
+
+            <table id="tableau">
+            </table>
+        </div>
+        <script src="dist/jquery.js"></script>
+    	<script src="dist/main.min.js"></script>
+    </body>
+</html>
